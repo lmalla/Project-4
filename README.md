@@ -19,13 +19,13 @@ To see the models in action, we saved them and used random test cases for 20 Del
 
 ![image](https://user-images.githubusercontent.com/94984006/171275111-989278fb-1804-4c7a-9541-a4ea9bd9cded.png)
 
-We then further analyzed each model and determined the the ADA Boost classifier model was the best model.  The ADA Boost model has high precision of .95 and a significantly lower liklihood of over-predicting an on-time flight would be delayed than the Neural Netowrk Model. 
+We then further analyzed each model and determined that the ADA Boost classifier model was the best model.  The ADA Boost Classifier model has high precision of .95 and a significantly lower liklihood of over-predicting an on-time flight would be delayed than the Neural Netowrk Model. 
 
 Notably, the ADA Boost Classifier model also had higher Accuracy, Sensitivity and F1 scores than the Neural Network model, suggesting that it is likely a better performing model overall
 
 ![image](https://user-images.githubusercontent.com/94984006/171275909-f887e116-d748-4962-954b-29d585c69ea3.png)
 
-A key takeaway from this project is that, just because a model has a seemingly better testing/training or accuracy score it doesn't guarantee it is the best model.  You need to test the model, and calculate and analyze the Accuracy, Sensititivty, Percision and F1 score (ASPF) of the model in the context of your needs to determine which is the best model. 
+A key takeaway from this project is that, just because a model has a seemingly better testing/training or accuracy score it doesn't guarantee it is the best model.  To determine the best model, you need to test the model, and calculate and analyze the Accuracy, Sensititivty, Percision and F1 score (ASPF) of the model in the context of your needs to determine which is the best model. 
 
 We've attached a diagram we developed to help understand how to calculate the ASPF for the model in hopes that it may help others understand these calculations and corresponding results better.
 
