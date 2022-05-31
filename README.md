@@ -10,7 +10,7 @@ We cleaned up the data and eliminated non-valuable rows and reducted the reduced
 
 ![image](https://user-images.githubusercontent.com/94984006/171274739-06654762-b090-4229-b506-4c1cb96b64e3.png)
 
-We tested muliple Supervised Learning Models on airline flight delay information and landed on the following three models.  From the results, it appeard that the Neural Network model would perform the best with a rating of .97 and a loss rate of only .05.   
+We tested muliple Supervised Learning Models on the airline flight delay information and  narrowed our detailed analysis to the following three models.  From the initial results, it appeared that the Neural Network model would perform the best with an accuracy rating of .97 and a loss rate of only .05.   
 
 ![image](https://user-images.githubusercontent.com/94984006/171273301-3fe6bf5c-dcae-410c-83c6-301b6c6bbcc5.png)
 
@@ -19,13 +19,13 @@ To see the models in action, we saved them and used random test cases for 20 Del
 
 ![image](https://user-images.githubusercontent.com/94984006/171275111-989278fb-1804-4c7a-9541-a4ea9bd9cded.png)
 
-We then further analyzed the mode and determined the the ADA Boost classifier model was the best model, as it has high precision and a significantly low liklihood of over-predicting an on-time flight would be delayed than the Neural Netowrk Model. 
+We then further analyzed each model and determined the the ADA Boost classifier model was the best model.  The ADA Boost model has high precision of .95 and a significantly lower liklihood of over-predicting an on-time flight would be delayed than the Neural Netowrk Model. 
 
-Notably the ADA Boost Classifier model also had higher Accuracy, Sensitivity and F1 scores than the Neural Network model, hinting that it is likely a better performing model overall
+Notably, the ADA Boost Classifier model also had higher Accuracy, Sensitivity and F1 scores than the Neural Network model, suggesting that it is likely a better performing model overall
 
 ![image](https://user-images.githubusercontent.com/94984006/171275909-f887e116-d748-4962-954b-29d585c69ea3.png)
 
-Just because a model has a seemingly better testing/training or accuracy score it doesn't guarantee it is the best model.  You need to test the model, and calculate and analyze the Accuracy, Sensititivty, Percision and F1 score (ASPF) of the model to determine which is the best model to meet your business need.
+A key takeaway from this project is that, just because a model has a seemingly better testing/training or accuracy score it doesn't guarantee it is the best model.  You need to test the model, and calculate and analyze the Accuracy, Sensititivty, Percision and F1 score (ASPF) of the model in the context of your needs to determine which is the best model. 
 
 We've attached a diagram we developed to help understand how to calculate the ASPF for the model in hopes that it may help others understand these calculations and corresponding results better.
 
