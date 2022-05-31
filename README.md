@@ -24,9 +24,9 @@ Notably the ADA Boost Classifier model also had higher Accuracy, Sensitivity and
 
 ![image](https://user-images.githubusercontent.com/94984006/171275909-f887e116-d748-4962-954b-29d585c69ea3.png)
 
-This project was excellent for us to understand that, just because a model has a seemingly better score it doesn't guarantee it is the best model.  You need to test the model, calculate and analyze the Accuracy, Sensititivty and Percision ASP)of the model to determine which is the best model to meet your business need.
+Just because a model has a seemingly better testing/training or accuracy score it doesn't guarantee it is the best model.  You need to test the model, and calculate and analyze the Accuracy, Sensititivty, Percision and F1 score (ASPF) of the model to determine which is the best model to meet your business need.
 
-We've attached a sheet we developed to help us understand and calculate the ASP for the model in hopes that it may help others understand these calculations and results better.
+We've attached a diagram we developed to help understand how to calculate the ASPF for the model in hopes that it may help others understand these calculations and corresponding results better.
 
 ![image](https://user-images.githubusercontent.com/94984006/171276785-3b8f327d-6391-4dfc-af06-782b9771a4d2.png)
 
