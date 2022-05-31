@@ -1,5 +1,6 @@
-# Project-4
-We selected data on airline flight delays and attempted to create a model that would accurately predict if a flight would be delayed days in advance.  This model could be used by freqent travelers who have tight connections to determine if they want to risk taking this flight if theres a good chance their originatign flight will be delayed and they could miss their connection.
+# Project-4 - Machine Learning
+
+We selected data on airline flight delays and attempted to create a model that would accurately predict if a flight would be delayed days in advance.  This model could be used by freqent travelers who have tight connections to determine if they want to risk taking a flight where there's a good chance their originating flight will be delayed and they could miss their connection.
 
 ![image](https://user-images.githubusercontent.com/94984006/171274246-ada38e40-a78b-490c-bc82-d8fdc962a02b.png)
 
